@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>      
+   <meta charset= "utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">
+   <title>ProjectZ</title>
+  </head>
+ <body>
+
+    <div class = "Navbar">
+        <nav>
+         <label class = "logo">Project<a href="index.html"><span class="active">Z</span></a></label>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Feature.html">Features</a></li>
+            <li><a class ="active" href="Blog.html">Blog</a></li>
+            <li><a href="About.html">About</a></li>
+          </ul>
+          <label id="icon"><i class="fa fa-bars"></i></label>
+        </nav>
+    </div>
+   
+    <main class="Blog">
+        
+        <div class="Subject">
+            <h2 class="animate__animated animate__bounce animate__delay-2s">WEBTEC</h2>
+        </div>
+         
+        <div class=" row">
+
+
+            <div class="Acts">
+                <div class="descp">
+                  <img src="Images/PreL-Act-WEBTEC.png" alt="WEBTEC1">
+                  <h3>PRELIM</h3>
+                  <p><b>WEBTECH ACTIVITY 6</b><br>In this Activity I created a Web Page that display my info
+                  such as my Name, Address, and Birthday, I also included my Favorite Anime.</p>  
+                </div>
+            </div>
+
+            <div class="Acts">
+                <div class="descp">
+                  <img src="Images/MidT-Act-WEBTEC.png" alt="WEBTEC2">
+                  <h3>MIDTERM</h3>
+                  <p><b>WEBTECH ACTIVITY 14</b><br>In this activity I reused the code of my previous Web Page.
+                  And I implemented an alert message using javascript.</p>  
+                </div>
+            </div>
+        </div>
+
+        <div class="Subject">
+            <h2 class="animate__animated animate__bounce animate__delay-2s">COPRO</h2>
+        </div>
+         
+        <div class=" row">
+
+
+            <div class="Acts">
+                <div class="descp">
+                  <img src="Images/PreL-Act-COPRO.png" alt="COPRO1">
+                  <h3>PRELIM</h3>
+                  <p></b>LABORATORY 1.5<br>In this Laboratory Exercise I created a User Interface(UI) that allows the user
+                  to check the previous Activty he/she created.</p>  
+                </div>
+            </div>
+
+            <div class="Acts">
+                <div class="descp">
+                  <img src="Images/MidT-Act-COPRO.png" alt="COPRO2">
+                  <h3>MIDTERM</h3>
+                  <p></b>LABORATORY 2.4<br>In this Laboratory Exercise I created a User Interface(UI) that allows the customer to input
+                  his/her Name, Area Code, Contact Number, and Number Of Minutes. And it's porgrammed to calculate the customer charges based on the 
+                  number of minutes and area code he/she used.  
+                  </p>  
+                </div>
+            </div>
+        </div>
+
+        <div class="Subject">
+            <h2 class="animate__animated animate__bounce animate__delay-2s">OOPROG</h2>
+        </div>
+         
+        <div class=" row">
+
+
+            <div class="Acts">
+                <div class="descp">
+                  <img src="Images/PreL-Act-OOP.png" alt="OOP1">
+                  <h3>PRELIM</h3>
+                  <p></b>LABORATORY 2<br>In this Laboratory Exercise I created a UI Simple Calculator and also created a class for the program.
+                  </p> 
+                </div>
+            </div>
+
+            <div class="Acts">
+                <div class="descp">
+                 <img src="Images/MidT-Act-OOP.png" alt="OOP2">
+                  <h3>MIDTERM</h3>
+                  <p>LABORATORY 7<br>In this Laboratory Exercise I created a UI that allows the Employee to input his/her info and choose whether he/she is a Part-Timer or Full-Timer Employee.
+                  It also compute the Employee's salary based on his/her category</p>  
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+ 
+    <script>
+      $(document).ready(function(){
+         $('#icon').click(function(){
+           $('ul').toggleClass('show');
+         });
+      });
+      
+      $('#icon').on('click', function(){ $('body').toggleClass('no-scroll');
+      });
+     </script>
+   
+  </body>
+</html>
+     

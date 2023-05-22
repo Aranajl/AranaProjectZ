@@ -1,0 +1,132 @@
+  <!DOCTYPE html>
+<html>
+  <head>      
+   <meta charset= "utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">
+   <title>ProjectZ</title>
+  </head>
+ <body>
+
+    <div class = "Navbar">
+      <nav>
+       <label class = "logo">Project<a href="index.html"><span class="active">Z</span></a></label>
+        <ul>
+          <li><a class ="active" href="index.html">Home</a></li>
+          <li><a href="Feature.html">Features</a></li>
+          <li><a href="Blog.html">Blog</a></li>
+          <li><a href="About.html">About</a></li>
+        </ul>
+        <label id="icon"><i class="fa fa-bars"></i></label>
+      </nav>
+    </div>
+
+      <header>
+          <div class="Header-Content">
+             <h4>"Never Stop<br>Learning<br>Because Life<br>Never Stop<br>Teaching"</h4>
+          </div>
+      </header>
+
+      <main class="Sub">
+        <div class="Preview">
+          <h2 class="animate__animated animate__bounce animate__delay-2s">FEATURES</h2>
+          <div class="Hline"></div>
+        </div>
+            
+        <div class="container">
+
+          <div class="Pre-Sub">
+            <a href="Feature.html"><img src="Images/Class.png" alt="Class"></a>
+            <div class="desc">
+              <h3>CLASS</h3>
+            </div>
+          </div>
+
+          <div class="Pre-Sub">
+            <a href="Feature.html"><img src="Images/Attributes.png" alt="Attributes"></a>
+            <div class="desc">
+              <h3>ATTRIBUTES</h3>
+            </div>  
+          </div>
+
+          <div class="Pre-Sub">
+            <a href="Feature.html"><img src="Images/Method.png" alt="Method"></a>
+            <div class="desc">
+              <h3>METHODS</h3>
+            </div>
+          </div>
+
+          <div class="Pre-Sub">
+            <a href="Feature.html"><img src="Images/Pillars.jpg" alt="Pillars"></a>
+            <div class="desc">
+              <h3>4 PILLARS</h3>
+            </div>
+          </div>
+        </div>
+      </main>
+
+    <div class="Lower">
+
+        <div class="Preview">
+          <h2 class="animate__animated animate__bounce animate__delay-2s">PROJECTS</h2>
+          <div class="Hline2"></div>
+       </div>
+             
+      <div class="container">
+
+        <div class="Pre-Act">
+          <a href="Blog.html"><img src="Images/MidT-Act-WEBTEC.png" alt="WEBTEC2"></a>
+          <div class="desc">
+            <h3>WEBTEC</h3>
+          </div>
+        </div>
+
+        <div class="Pre-Act">
+          <a href="Blog.html"><img src="Images/PreL-Act-COPRO.png" alt="COPRO1"></a>
+          <div class="desc">
+            <h3>COPRO</h3>
+          </div>  
+        </div>
+
+        <div class="Pre-Act">
+          <a href="Blog.html"><img src="Images/MidT-Act-OOP.png" alt="OOP2"></a>
+          <div class="desc">
+            <h3>OOPROG</h3>
+          </div>
+        </div>
+
+      </div>
+
+
+      
+    </div>
+               
+   
+    <script src = "https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+ 
+      type="text/javascript"
+      alert('Welcome to the page!');
+    
+
+     
+      $(document).ready(function(){
+         $('#icon').click(function(){
+           $('ul').toggleClass('show');
+         }); 
+      });
+
+      
+      $('#icon').on('click', function(){ $('body').toggleClass('no-scroll');
+      });
+    </script> 
+   
+     
+  
+  </body>
+</html>
+     
+
