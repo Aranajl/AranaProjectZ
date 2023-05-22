@@ -332,13 +332,13 @@ main.Sub{
    .Pre-Sub{
       max-width: 280px;
       margin-top: 30px;
-      margin-left: 50px;
+      margin-left: 100px;
    }
 
    .Pre-Act{
      width: 280px;
      margin-top: 30px;
-     margin-left: 50px;
+     margin-left: 100px;
    }
    
 
@@ -595,7 +595,7 @@ Footer{
    }
    
    .Acts{
-      margin: 30px 40px;
+      margin: 30px 100px;
       width: 320px;
    }
 
